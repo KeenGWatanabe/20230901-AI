@@ -8,7 +8,7 @@ function myFunction() {
 	} else if(inputText.toLowerCase().includes(" my ")) {
 	document.getElementById("answer").innerHTML="We All Gonna Die!";
 	} else if(inputText === " me ") {
-	document.getElementById("answer").innerHTML="We All Gonna Die!";
+	document.getElementById("answer").innerHTML="We All Gonna Die!" + "Congratulations!  You hit the sweetspot of humanity, the word ''me'' ";
 
 
 	} else {
