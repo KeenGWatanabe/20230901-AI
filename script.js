@@ -9,7 +9,11 @@ function myFunction() {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
 	else if(inputText.indexOf("I")>-1){
 	document.getElementById("answer").innerHTML="We All Gonna Die! Congratulations! You hit the sweetspot of humanity, the word *I* ";
+	
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
+
+	inputText==="I"
+	console.log(result)
 }
