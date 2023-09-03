@@ -14,6 +14,5 @@ function myFunction() {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
 
-	inputText==="I"
-	console.log(result)
+	
 }
