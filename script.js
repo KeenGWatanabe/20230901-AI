@@ -7,8 +7,8 @@ function myFunction() {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
 	//else if(inputText.toLowerCase().includes(" my ")) {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
-	else if(inputText.toLowerCase().match(/^I$/)){
-	document.getElementById("answer").innerHTML="We All Gonna Die! Congratulations! You hit the sweetspot of humanity, the word *me* ";
+	else if(inputText.indexOf("i")){
+	document.getElementById("answer").innerHTML="We All Gonna Die! Congratulations! You hit the sweetspot of humanity, the word *I* ";
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
