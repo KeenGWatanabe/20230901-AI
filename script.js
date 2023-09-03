@@ -7,6 +7,10 @@ function myFunction() {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
 	//else if(inputText.toLowerCase().includes(" my ")) {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
+	else if(inputText.toLowerCase().indexOf("thank you")>-1){
+		document.getElementById("answer").innerHTML="You are welcome";
+		
+		}
 	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";
 		
