@@ -9,7 +9,7 @@ function myFunction() {
 	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
 	else if(inputText === " me "||" my ") {
 	document.getElementById("answer").innerHTML="We All Gonna Die! Congratulations! You hit the sweetspot of humanity, the word *me* ";
-	} else (inputText != " me "||" my "); {
+	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
 }
