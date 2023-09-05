@@ -16,7 +16,7 @@ function myFunction() {
 		
 		}
 	else if(inputText.toLowerCase().indexOf("i ")>-1){
-	document.getElementById("answer").innerHTML=`We All Gonna Die! Congratulations! <br> You hit the sweetspot of humanity, the word "I" `;
+	document.getElementById("answer").innerHTML=`WE ALL GONNA DIE! Congratulations! <br> You hit the sweetspot of humanity, the word "I" `;
 	
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
