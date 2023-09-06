@@ -19,7 +19,7 @@ function myFunction() {
 	document.getElementById("answer").innerHTML=`WE ALL GONNA DIE! Congratulations! <br> You hit the sweetspot of humanity, the word "I" `;
 	
 	}
-	else if(inputText.toLowerCase().indexOf("asshole ")>-1){
+	else if(inputText.toLowerCase().indexOf("assholes ")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for people blogging on assholes</a>';       
 		
 	} else {
