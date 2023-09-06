@@ -3,10 +3,7 @@ function myFunction() {
 
 	if(inputText === "") {
 	document.getElementById("answer").innerHTML="Your input is blank";      
-	} //else if([(inputText === ""),inputText.toLowerCase().match(/^me$/),(inputText === "")]) {
-	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
-	//else if(inputText.toLowerCase().includes(" my ")) {
-	//document.getElementById("answer").innerHTML="We All Gonna Die!";} 
+		} 
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
 		document.getElementById("answer").innerHTML="You are welcome";
 		
@@ -18,9 +15,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("i ")>-1){
 	document.getElementById("answer").innerHTML=`WE ALL GONNA DIE! Congratulations! <br> You hit the sweetspot of humanity, the word "I" `;
 	
-	}
-	else if(inputText.toLowerCase().indexOf("assholes "||"asshole ")>-1){
-		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for people blogging on assholes</a>';       
+		}
+	else if(inputText.toLowerCase().indexOf("assholes ")||inputText.toLowerCase().indexOf("asshole ")){
+		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for blogging on assholes</a>';       
 		
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
