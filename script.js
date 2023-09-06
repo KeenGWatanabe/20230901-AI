@@ -20,7 +20,7 @@ function myFunction() {
 	
 	}
 	else if(inputText.toLowerCase().indexOf("asshole ")>-1){
-		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for asshole</a>';       
+		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for people blogging on assholes</a>';       
 		
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
