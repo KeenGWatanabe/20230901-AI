@@ -29,7 +29,7 @@ function myFunction() {
 
 	else if(inputText.toLowerCase().indexOf("the weather")>-1){
 	document.getElementById("answer").innerHTML='<a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
-
+	}	
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 		document.getElementById("answer").innerHTML='<a href="">mt</a>'; 
 	} else {
