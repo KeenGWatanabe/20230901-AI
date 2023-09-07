@@ -19,7 +19,13 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("assholes ")||inputText.toLowerCase().indexOf("asshole ")){
 		document.getElementById("answer").innerHTML='<a href="https://sinkapoor.blogspot.com/2023/09/irritants-of-society.html">click for blogging on assholes</a>';       
 		
-	} else {
+	}
+else if(inputText.toLowerCase().indexOf("god ")||inputText.toLowerCase().indexOf("gods ")){
+	document.getElementById("answer").innerHTML='<a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20that,existence%20of%20an%20omnipotent%20being.">click for research</a>';       
+	
+} 
+	
+	else {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
 
