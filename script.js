@@ -23,9 +23,13 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("the developer")>-1){
 		document.getElementById("answer").innerHTML='<a href="http://web.mckeen.sg" target="_blank">developer</a>'; 
 	}
-	else if(inputText.toLowerCase().indexOf("the weather")>-1){
+	else if(inputText.toLowerCase().indexOf("singapore weather")>-1){
 		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a>'; 
 	}
+
+	else if(inputText.toLowerCase().indexOf("the weather")>-1){
+	document.getElementById("answer").innerHTML='<a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
+
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
 		document.getElementById("answer").innerHTML='<a href="">mt</a>'; 
 	} else {
