@@ -6,7 +6,7 @@ function myFunction() {
 	document.getElementById("answer").innerHTML="Your input is blank";      
 		} 
 	else if(inputText.toLowerCase().indexOf("thank you")>-1){
-		document.getElementById("answer").innerHTML="You are welcome";
+		document.getElementById("answer").innerHTML="You are welcome.不用客气。";
 		}
 	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";
