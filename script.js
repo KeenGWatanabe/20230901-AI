@@ -30,8 +30,15 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("the weather")>-1){
 	document.getElementById("answer").innerHTML='<a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
 		}	
+	else if(inputText.toLowerCase().indexOf("x")>-1){
+		document.getElementById("answer").innerHTML="";
+		}	
 	else if(inputText.toLowerCase().indexOf("xx")>-1){
-		document.getElementById("answer").innerHTML='<a href="">mt</a>'; 
+		document.getElementById("answer").innerHTML='<a href="">mt</a>';
+									}	
+	else if(inputText.toLowerCase().indexOf("xxx")>-1){
+			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
+	
 	} else {
 	document.getElementById("answer").innerHTML="Who cares?";      
 	}
