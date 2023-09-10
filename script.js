@@ -40,7 +40,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	
 	} else {
-	document.getElementById("answer").innerHTML="Who cares?";      
+	document.getElementById("answer").innerHTML='Not in our database yet, would you like to contack us?<br><a href="mailto:accountant@mckeen.sg?cc=wev@mckeen.sg&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20Mckeen", target="_blank">email</a>';      
 	}
 
 	
