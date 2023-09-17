@@ -20,13 +20,11 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("god")>-1){
 		document.getElementById("answer").innerHTML='<a href="https://www.theguardian.com/education/2004/mar/08/highereducation.uk1#:~:text=A%20scientist%20has%20calculated%20thatexistence%20of%20an%20omnipotent%20being."  target="_blank">A scientist has calculated that there is a 67% chance that God exists</a>'; 
 		}
-	else if(inputText.toLowerCase().indexOf("singapore weather")>-1){
-		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a>'; 
+	else if(inputText.toLowerCase().indexOf("weather")>-1){
+		document.getElementById("answer").innerHTML='<a href="http://www.weather.gov.sg/lightning/lightning/lightningalertinformationsystem.jsp"  target="_blank">click for SG weather</a><br><a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
 		}
 
-	else if(inputText.toLowerCase().indexOf("the weather")>-1){
-	document.getElementById("answer").innerHTML='<a href="https://map.worldweatheronline.com/" target="_blank">click for satelite world weather</a>'; 
-		}	
+//Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
 		}	
@@ -37,7 +35,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	
 	} else {
-	document.getElementById("answer").innerHTML='Not in our database yet, would you like to contact us?<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+	document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 
 	
