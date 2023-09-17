@@ -37,7 +37,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>'; 	
 	
 	} else {
-	document.getElementById("answer").innerHTML='Not in our database yet, would you like to contack us?<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+	document.getElementById("answer").innerHTML='Not in our database yet, would you like to contact us?<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
 
 	
