@@ -35,7 +35,10 @@ function myFunction() {
 		}
 	else if(inputText.toLowerCase().indexOf("scams")>-1){
 		document.getElementById("answer").innerHTML=`for now is buy a cheap SIM card and phone just for banking and singpass only, nothing else inside the phone. Better yet, get those drug dealer phones where you can remove the battery!  But those models do not have the latest software for current banking and singpass updates.  Dam MFs`;
-		}			
+		}
+	else if(inputText.toLowerCase().indexOf("fukushi")>-1){
+		document.getElementById("answer").innerHTML=`We all gonna die already. Our rain comes from sea water, it depends if tritium is too heavy hopefully will not radiate into vapour and fall as rain as well.  But still, invariably, these leaked nuclear will end up in our messy food chain.`;
+		}				
 	else if(inputText.toLowerCase().indexOf("marvel")>-1&&inputText.toLowerCase().indexOf("dc")>-1){
 		document.getElementById("answer").innerHTML='Rather than look for differences because there is so much diversity, spot the similarity between DC and Marvels is a much easier comparison. The rich kid, no super powers, highly intelligent; Batman(Bruce Wayne) and Iron Man(Tony Stark); the multi-verse is in our minds. Something is manipulating us!';
 		}		
