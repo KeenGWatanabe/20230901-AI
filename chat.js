@@ -42,6 +42,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("marvel")>-1&&inputText.toLowerCase().indexOf("dc")>-1){
 		document.getElementById("answer").innerHTML='Rather than look for differences because there is so much diversity, spot the similarity between DC and Marvels is a much easier comparison. The rich kid, no super powers, highly intelligent; Batman(Bruce Wayne) and Iron Man(Tony Stark); the multi-verse is in our minds. Something is manipulating us!';
 		}		
+	else if(inputText.toLowerCase().indexOf("cheapskate")>-1&&inputText.toLowerCase().indexOf("white man")>-1||inputText.toLowerCase().indexOf("cheapskate")>-1&&inputText.toLowerCase().indexOf("ang moh")>-1){
+			document.getElementById("answer").innerHTML='2021a.d.The western economy is losing its grip, at least most of its lower rungs are moving to Asiatic societies to scrim.  Here is a picture of a "foreign talent" in an Asiatic country, simply desribe in 3 phrase => simply cheapskate, stolen bicycle, trying to be funny?<br/><a href="https://www.facebook.com/SingaporeRoadAccident/photos/a.720467434707542/3676214972466092/"  target="_blank">ang moh</a>'; 
+			}
 //Sample codes	
 	else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
