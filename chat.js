@@ -33,12 +33,14 @@ function myFunction() {
 		document.getElementById("answer").innerHTML=`We all gonna die already. Our rain comes from sea water, it depends if tritium is too heavy hopefully will not radiate into vapour and fall as rain as well.  But still, invariably, these leaked nuclear will end up in our messy food chain.`;
 	} else if(inputText.toLowerCase().indexOf("marvel")>-1&&inputText.toLowerCase().indexOf("dc")>-1){
 		document.getElementById("answer").innerHTML='Rather than look for differences because there is so much diversity, spot the similarity between DC and Marvels is a much easier comparison. The rich kid, no super powers, highly intelligent; Batman(Bruce Wayne) and Iron Man(Tony Stark); the multi-verse is in our minds. Something is manipulating us!';
-	} else if(inputText.toLowerCase().indexOf("cheapskate")>-1&&inputText.toLowerCase().indexOf("white man")>-1||inputText.toLowerCase().indexOf("cheapskate")>-1&&inputText.toLowerCase().indexOf("ang moh")>-1){
+	} else if(inputText.toLowerCase().indexOf("cheapskate")>-1){
 			document.getElementById("answer").innerHTML='2021a.d.The western economy is losing its grip, at least most of its lower rungs are moving to Asiatic societies to scrim.  Here is a picture of a "foreign talent" in an Asiatic country, simply desribe in 3 phrase => simply cheapskate, stolen bicycle, trying to be funny?<br/><a href="https://www.facebook.com/SingaporeRoadAccident/photos/a.720467434707542/3676214972466092/"  target="_blank">ang moh</a>'; 
 	} else if(inputText.toLowerCase().indexOf("stress")>-1&&inputText.toLowerCase().indexOf("reduce")>-1||inputText.toLowerCase().indexOf("stress")>-1&&inputText.toLowerCase().indexOf("remove")>-1||inputText.toLowerCase().indexOf("stress")>-1&&inputText.toLowerCase().indexOf("deal with")>-1){
 			document.getElementById("answer").innerHTML=`Finish your work / your study.  Things that are a chore in your mind and cluttered  or lingering on as they are not done, is the source of stress, your brain has a task completion function to click.
 			As this task accumulates more and more, backlog further into the past, the undone task becomes regret.
 			Society's benchmark of success and achievement seems to have distance people from themselves, because the economy needs to move on, cannot have everybody doing their thing.  So there is a race designed to keep people hungry, else the economy would collapse.  Watch "In Time", a very good sci-fi movie about this concept/reality for some people.<br/><a href="https://youtu.be/YRSBiTF3wNw?si=G0nIRWuW7By9dnSO"  target="_blank">In Time</a>`;
+		} else if(inputText.toLowerCase().indexOf("irritate")>-1){
+			document.getElementById("answer").innerHTML="2023AD. bullshit jobs irritate me, morning when the gardener or pool attendant blows leaves with the gas powered leave blower, dispelling gasoline fumes.  The noisy rubbish truck hydraulics and grinding metal sound when it dislodges bins into its haul. Smokers puffing at sidewalks";
 //Sample codes	
 	} else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
