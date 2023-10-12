@@ -9,10 +9,14 @@ function myFunction() {
 	if(inputText === "") {
 	document.getElementById("answer").innerHTML="Your input is blank";      
 	} else if(inputText.toLowerCase().indexOf("thank you")>-1){
-		document.getElementById("answer").innerHTML="You are welcome.不用客气。";
-	} else if(inputText.toLowerCase().indexOf("bullshit")>-1){
-		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";
-	} else if(inputText.toLowerCase().indexOf("asshole")>-1){
+		document.getElementById("answer").innerHTML="You are welcome.不用客气。";}
+	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
+		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";}
+
+	else if(inputText.toLowerCase().indexOf("prison")>-1&&inputText.toLowerCase().indexOf("living in")>-1){
+		document.getElementById("answer").innerHTML="The system we adopted and living in is a prison, the currency is money";}
+	
+	else if(inputText.toLowerCase().indexOf("asshole")>-1){
 		document.getElementById("answer").innerHTML=`Definition: Incalcitrant liar, demands assurance because of lacking in substance. Bite u with committed words, If things don't work out, find somebody, something to blame but themselves.<br/>	
 		Best treatment, ignore these people, else move on.  These people will dissolve once society learns to ignore them entirely. They thrive amongst losers and establishments because they manipulate the people in the system to hide their incompetence.</a>`;       
 	} else if(inputText.toLowerCase().indexOf("god")>-1){
