@@ -32,8 +32,8 @@ else if (elementId === 'How to learn') {
     Learn anything > Chat GPT for A Book
     How? Coding as your foundation pack + your resources of knowledge to develop this Chat program.
     `);}
-else if (elementId === '') {
-        alert(``);}
+else if (elementId === 'conflicting info') {
+        alert(`The movie Terminator Genisys predicted humans will struggle with conflicting data and information, in the realm of time travel and how to piece history together.  But like the stock market, eventuality is that humans will disrupt whatever system presented to them.This metaphor is now applicable to our different AI being developed by different companies, knowing the information on search engines uploaded by humans are still bias.  The construct of theories, fundamentals, concepts are still aligned with established institutions, people who started them, collaboration of information is still an issue.`);}
 else if (elementId === '') {
             alert(``);}
     
