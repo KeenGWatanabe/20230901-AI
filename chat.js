@@ -45,6 +45,12 @@ function myFunction() {
 			Society's benchmark of success and achievement seems to have distance people from themselves, because the economy needs to move on, cannot have everybody doing their thing.  So there is a race designed to keep people hungry, else the economy would collapse.  Watch "In Time", a very good sci-fi movie about this concept/reality for some people.<br/><a href="https://youtu.be/YRSBiTF3wNw?si=G0nIRWuW7By9dnSO"  target="_blank">In Time</a>`;
 		} else if(inputText.toLowerCase().indexOf("irritate")>-1){
 			document.getElementById("answer").innerHTML="2023AD. bullshit jobs irritate me, morning when the gardener or pool attendant blows leaves with the gas powered leave blower, dispelling gasoline fumes.  The noisy rubbish truck hydraulics and grinding metal sound when it dislodges bins into its haul. Smokers puffing at sidewalks";
+		} else if(inputText.toLowerCase().indexOf("lowball")>-1){
+			document.getElementById("answer").innerHTML=`feigning ignorance to get as much as they can rip off others.
+    @cheapskate analogy.
+    analogy 1 for your context:
+    actors: employer / domestic maid / employment agency / kitchen equipment.
+    script: politically correctness, the employer should teach the maid how to use his kitchen equipment, how to cook dishes he wants.  Ridiculous is when employer goes back to employment agency asking agency to teach maid how to use their kitchen equipment and how to cook!!!`;
 //Sample codes	
 	} else if(inputText.toLowerCase().indexOf("x")>-1){
 		document.getElementById("answer").innerHTML="";
