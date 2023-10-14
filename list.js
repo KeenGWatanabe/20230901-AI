@@ -8,8 +8,33 @@ function displayAnswer(elementId) {
 } else if (elementId === 'works') {
     alert(`Everything works, whether its water, electricity, gas, telephone, telexes, it just has to work.  If it doesn't work, I want to know why, and if I am not satisfied, and I often was not, the chief goes, and I have to find another chief.  Firing the chief is very simple." 1984`);
 } else if (elementId === 'equal') {
-    alert(`I started off believing all men were equal. I now know that's the most unlikely thing ever to have been, because millions of years have passed over evolution, people have scattered across the face of this earth, been isolated from each other, developed independently, had different intermixtures between races, peoples, climates, soils... I didn't start off with that knowledge. But by observation, reading, watching, arguing, asking, and then bullying my way to the top, that is the conclusion I've come to. Singapore Story: Memoirs of Lee Kwan Yew`);
-}
+    alert(`I started off believing all men were equal. I now know that's the most unlikely thing ever to have been, because millions of years have passed over evolution, people have scattered across the face of this earth, been isolated from each other, developed independently, had different intermixtures between races, peoples, climates, soils... I didn't start off with that knowledge. But by observation, reading, watching, arguing, asking, and then bullying my way to the top, that is the conclusion I've come to. Singapore Story: Memoirs of Lee Kwan Yew`);}
 
+else if (elementId === 'learning') {
+    alert(`Foundation - the starter pack program:
+    language and its construct, then you will comprehend the entirety of its meaning;
+    mathematics and its perspective of our physical world, then you will understand how to solve physical world problems;
+    social and cultural perspective, then you will understand what the world wants base on their construct;
+    `);}
+else if (elementId === 'How to learn') {
+    alert(`As the world is constructed from the baskc learning starter pack;
+    evey skill you want to learn will be understood through language description;
+    mathematics involve in that skill;
+    mould that skill according to social and cultural requirements or demands;
+    EXAMPLE:
+    Learn swimming > visual and language understanding of the skill > process and training body according to this input information;
+    How? The only requiremnt to learn swimming is with foundation pack +  your own body.
+
+    EXAMPLE:
+    Learn anything > Chat GPT for Lifeguard
+    How? Coding as your foundation pack + your resources of knowledge to develop this Chat program.
+
+    Learn anything > Chat GPT for A Book
+    How? Coding as your foundation pack + your resources of knowledge to develop this Chat program.
+    `);}
+else if (elementId === '') {
+        alert(``);}
+else if (elementId === '') {
+            alert(``);}
     
 }
