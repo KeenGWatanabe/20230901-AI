@@ -46,18 +46,19 @@ function myFunction() {
 		} else if(inputText.toLowerCase().indexOf("irritate")>-1){
 			document.getElementById("answer").innerHTML="2023AD. bullshit jobs irritate me, morning when the gardener or pool attendant blows leaves with the gas powered leave blower, dispelling gasoline fumes.  The noisy rubbish truck hydraulics and grinding metal sound when it dislodges bins into its haul. Smokers puffing at sidewalks";
 		} else if(inputText.toLowerCase().indexOf("lowball")>-1){
-			document.getElementById("answer").innerHTML=`feigning ignorance to get as much as they can rip off others.
+			document.getElementById("answer").innerHTML=`feigning ignorance to get as much as they can rip off others.<br>
     @cheapskate analogy.
     analogy 1 for your context:
-    actors: employer / domestic maid / employment agency / kitchen equipment.
+    actors: employer / domestic maid / employment agency / kitchen equipment.<br>
     script: politically correctness, the employer should teach the maid how to use his kitchen equipment, how to cook dishes he wants.  Ridiculous is when employer goes back to employment agency asking agency to teach maid how to use their kitchen equipment and how to cook!!!`;}
-	else if(inputText.toLowerCase().indexOf("war")>-1){document.getElementById("answer").innerHTML=`1st world, we built flying machines, chemical warfare, and couldn't wait to use them to gain air superiority and gun each other down. 2nd world war, we built navy ships, and start over and ended with the atomic bomb. It is in our nature to gun each other, now there's chip war, AI war, cyberattack, currency war.  Like T100 said, it is in our nature to kill each other."   `;}
+
+	else if(inputText.toLowerCase().indexOf("war")>-1){document.getElementById("answer").innerHTML=`1st world, we built flying machines, chemical warfare, and couldn't wait to use them to gain air superiority and gun each other down.<br>2nd world war, we built navy ships, and start over and ended with the atomic bomb.<br>It is in our nature to gun each other, now there's chip war, AI war, cyberattack, currency war.  Like T100 said, it is in our nature to kill each other."   `;}
 //Sample codes	
 	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML="";} 
 		
 	//	else if(inputText.toLowerCase().indexOf("xx")>-1){document.getElementById("answer").innerHTML='<a href="">mt</a>';}
 	// else if(inputText.toLowerCase().indexOf("xxx")>-1){document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>';} 	
-	// else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;
+	else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;}
 			
 	//document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
 	}
