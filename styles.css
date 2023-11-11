@@ -53,6 +53,14 @@
   
   .show {display: block;}
   .body {
-    background-color: antiquewhite;
-    color: black;
+    background-color: black;
+    font-family: arial;
+    color: limegreen;
   }
+
+  .ctrDiv{
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center;  
+}

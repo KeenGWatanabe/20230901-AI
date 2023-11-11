@@ -10,6 +10,21 @@ function myFunction() {
 	document.getElementById("answer").innerHTML="Your input is blank";      
 	} else if(inputText.toLowerCase().indexOf("thank you")>-1){
 		document.getElementById("answer").innerHTML="You are welcome.不用客气。";}
+		else if(inputText.toLowerCase().indexOf("time")>-1&&inputText.toLowerCase().indexOf("what")>-1){
+			document.getElementById("answer").innerHTML=`The current time is ${new Date().toLocaleTimeString()}.`;
+			}
+		else if(inputText.toLowerCase().indexOf("date")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("date")>-1&&inputText.toLowerCase().indexOf("today")>-1){
+			document.getElementById("answer").innerHTML=`Today is ${new Date().toLocaleDateString()}.`;
+			}
+		else if(inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("today")>-1){
+			document.getElementById("answer").innerHTML=`Today is ${new Date().toLocaleString('en-GB',{weekday:'long'})}.`;
+			}
+		else if(inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("schedule")>-1||inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("next")>-1){
+			document.getElementById("answer").innerHTML=`Check SBS transit app here <a href="https://www.sbstransit.com.sg/service/sbs-transit-app" style="color: white;" target="_blank">SBS website</a>`;
+			}
+		else if(inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("weather")>-1||inputText.toLowerCase().indexOf("today")>-1&&inputText.toLowerCase().indexOf("weather")>-1){
+			document.getElementById("answer").innerHTML=`The weather today is <a href="https://www.nea.gov.sg/" style="color: white;" target="_blank">NEA website</a>`;
+			}
 	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";}
 
@@ -60,7 +75,7 @@ function myFunction() {
 	// else if(inputText.toLowerCase().indexOf("xxx")>-1){document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>';} 	
 	else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question or check your spelling.<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>`;}
 			
-	//document.getElementById("answer").innerHTML='Please rephrase your question,<br>not in our database yet, <br>or out-of-scope for FreeMindson<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", target="_blank">email</a>';      
+	      
 	}
 
 	

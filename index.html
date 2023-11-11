@@ -6,15 +6,15 @@
     <title>freemindson ai</title>
     <link rel="icon" type="image/x-icon" href="favicon-FREE LOGO.png">
     <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
     
 </head>
 <body  class="body">
-    <h3 style="padding: 0px; font-family: arial;">Chat with freemindson<br/></h3>
-        <br/>
-
-    <input id="text_a" type="text;" size="50px;" />
-    <p id="answer"></p>
-    <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="myFunction()">Chat</button>
+  <div-c class="ctrDiv"><h3 style="font-family: 'Syncopate'; color: white;">Chat with freemindson<br/></h3></div-c><br/>
+<div-c class="ctrDiv">
+    <input id="text_a" type="text;" size="50px;" /></div-c>
+    <div-c class="ctrDiv" id="answer"></div-c>
+    <div-c class="ctrDiv"><button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="myFunction()">Chat</button>
     <div class="dropdown">
         <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">sample</button>
         <div class="dropdown-content" id="myDropdown">
@@ -36,9 +36,12 @@
           <a href="#" onclick="displayAnswer('How to learn')">How to learn?</a>
           <a href="#" onclick="displayAnswer('conflicting info')">struggle with AI</a>
           <a href="#" onclick="displayAnswer('')"></a>
-          <a href="#" onclick="displayAnswer('')"></a>
+          <a href="#" onclick="displayAnswer('')"></a></div></div></div-c>
 
-    
+      <!-- The video -->
+<video style="margin-top: 0px; z-index: -1;"  autoplay muted loop id="myVideo">
+  <source src="core-grn-pink-fire.mp4" type="video/mp4">
+</video>
     <script src="chat.js"></script>
     <script src="dropdown.js"></script>
     <script src="dropdown1.js"></script>
