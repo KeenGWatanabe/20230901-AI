@@ -19,13 +19,19 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("day")>-1&&inputText.toLowerCase().indexOf("today")>-1){
 			document.getElementById("answer").innerHTML=`Today is ${new Date().toLocaleString('en-GB',{weekday:'long'})}.`;
 			}
+		else if(inputText.toLowerCase().indexOf("year")>-1&&inputText.toLowerCase().indexOf("what")>-1||inputText.toLowerCase().indexOf("year")>-1&&inputText.toLowerCase().indexOf("today")>-1){
+			document.getElementById("answer").innerHTML=`The year is ${new Date().toLocaleString('en-GB',{year:'numeric'})}.`;
+			}
 		else if(inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("schedule")>-1||inputText.toLowerCase().indexOf("bus")>-1&&inputText.toLowerCase().indexOf("next")>-1){
 			document.getElementById("answer").innerHTML=`Check SBS transit app here <a href="https://www.sbstransit.com.sg/service/sbs-transit-app" style="color: white;" target="_blank">SBS website</a>`;
 			}
 		else if(inputText.toLowerCase().indexOf("how")>-1&&inputText.toLowerCase().indexOf("weather")>-1||inputText.toLowerCase().indexOf("today")>-1&&inputText.toLowerCase().indexOf("weather")>-1){
 			document.getElementById("answer").innerHTML=`The weather today is <a href="https://www.nea.gov.sg/" style="color: white;" target="_blank">NEA website</a>`;
 			}
-	else if(inputText.toLowerCase().indexOf("bullshit")>-1){
+		else if(inputText.toLowerCase().indexOf("what")>-1&&inputText.toLowerCase().indexOf("you")>-1){
+			document.getElementById("answer").innerHTML="I'm AI-20230901-project, build by LazyDolphin as a learning module for interactive chat on general topics.";}
+		
+			else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";}
 
 	else if(inputText.toLowerCase().indexOf("prison")>-1&&inputText.toLowerCase().indexOf("living in")>-1){
