@@ -1,52 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>freemindson ai</title>
-    <link rel="icon" type="image/x-icon" href="favicon-FREE LOGO.png">
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
-    
-</head>
-<body  class="body">
-  <div-c class="ctrDiv"><h3 style="font-family: 'Syncopate'; color: white;">Chat with freemindson<br/></h3></div-c><br/>
-  <div-c class="ctrDiv"><div-c class="answerBox" id="answer" style="text-align:left; background-color:black; width: 50ox;"></div-c><br/>
-</div-c>
-<div-c class="ctrDiv"><input id="text_a" type="text;" size="50px;" /></div-c>
-    <div-c class="ctrDiv" id="answer"></div-c>
-    <div-c class="ctrDiv"><button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;" onclick="myFunction()">Chat</button>
-    <div class="dropdown">
-        <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">sample</button>
-        <div class="dropdown-content" id="myDropdown">
-          <input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" />
-          
-          
-          <a href="#" onclick="displayAnswer('works')">Everything works</a>
-          <a href="#" onclick="displayAnswer('equal')">All men equal?</a>
-          
-        </div>
-      </div>
-    </div>
-            <div class="dropdown">
-        <button style="border-color:red; margin: 25px;" onclick="dropdown1()">topics</button>
-        <div class="dropdown-content" id="myDropdown1">
-          <input id="myInput" onkeyup="filterFunction1()" placeholder="Search.." type="text" />
-          
-          <a href="#" onclick="displayAnswer('learning')">learning</a>
-          <a href="#" onclick="displayAnswer('How to learn')">How to learn?</a>
-          <a href="#" onclick="displayAnswer('conflicting info')">struggle with AI</a>
-          <a href="#" onclick="displayAnswer('')"></a>
-          <a href="#" onclick="displayAnswer('')"></a></div></div></div-c>
 
-      <!-- The video -->
-<video style="margin-top: 0px; z-index: -1;"  autoplay muted loop id="myVideo">
-  <source src="core-grn-pink-fire.mp4" type="video/mp4">
-</video>
-    <script src="chat.js"></script>
-    <script src="dropdown.js"></script>
-    <script src="dropdown1.js"></script>
-    <script src="list.js"></script>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>freemindson ai</title>
+  <link rel="icon" type="image/x-icon" href="favicon-FREE LOGO.png">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
+</head>
+
+<body class="body">
+
+  <div-c class="ctrDiv">
+    <h3 style="font-family: 'Syncopate'; color: white;">Chat with freemindson<br /></h3>
+  </div-c><br />
+  <div-c class="ctrDiv">
+    <div class="answerBox" id="answer" style="text-align:left; background-color:black; width: 50ox;"></div><br />
+  </div-c><br />
+  <!--input bar*-->
+  <div-c class="ctrDiv"><input id="text_a" type="text;" size="50px;" />
+    <div id="answer"></div></div-c>
+    <!--input bar***-->
+  <div-c class="ctrDiv">  
+  <!--chat button*-->
+  <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;"
+    onclick="myFunction()">Chat</button>
+  <!--chat button***-->
+  <!--sample button*-->
+  <div class="dropdown">
+    <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">sample</button>
+    <div class="dropdown-content" id="myDropdown">
+      <!--input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" /-->
+      <a href="#" onclick="displayAnswer('works')">Everything works</a>
+      <a href="#" onclick="displayAnswer('equal')">All men equal?</a>
+      <a href="#" onclick="displayAnswer('learning')">Learning</a>
+      <a href="#" onclick="displayAnswer('How to learn')">How to learn?</a>
+      <a href="#" onclick="displayAnswer('conflicting info')">struggle with AI</a>
+    </div></div>
+  
+  <!--sample button***-->
+  
+  </div-c>
+  </div>
+
+  <!-- The video --><!--style="margin-top: 0px; margin-left: 0px; z-index: -1;"/video> -->
+  <!--background video*-->
+  <div-c class="ctrDiv">
+    <div class="container">
+      <video id="glass" autoplay muted loop id="myVideo">
+        <source src="core-grn-pink-fire-crop.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </div-c>
+  <!--background video***width="840" height="560" -->
+
+
+  <script src="chat.js"></script>
+  <script src="dropdown.js"></script>
+  <script src="dropdown1.js"></script>
+  <script src="list.js"></script>
+
 </body>
+
 </html>

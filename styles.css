@@ -56,7 +56,6 @@
     background-color: black;
     font-family: arial;
     color: white;
-
   }
 
   .ctrDiv{
@@ -64,7 +63,7 @@
     align-items: center; 
     text-align: center; 
     justify-content: center;  
-}
+  }
 .answerBox{
   display: inline-block;
   box-sizing: border-box;
@@ -76,7 +75,19 @@
   color: white;
 }
 video {
+  display: inline-block;
   position: absolute;
   top: 60px;
   left: 60px;
+  z-index: -1;
+}
+.container {
+  width: 400px;
+  overflow: hidden;
+  display: block;
+  height: 560px;
+}
+
+#glass {
+  display: left;
 }
