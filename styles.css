@@ -76,18 +76,8 @@
 }
 video {
   display: inline-block;
-  position: absolute;
-  top: 60px;
-  left: 60px;
+  position: relative;
+  top: -160px;
+  left: 0px;
   z-index: -1;
-}
-.container {
-  width: 400px;
-  overflow: hidden;
-  display: block;
-  height: 560px;
-}
-
-#glass {
-  display: left;
 }
