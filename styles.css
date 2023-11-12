@@ -55,7 +55,8 @@
   .body {
     background-color: black;
     font-family: arial;
-    color: limegreen;
+    color: white;
+
   }
 
   .ctrDiv{
@@ -63,4 +64,19 @@
     align-items: center; 
     text-align: center; 
     justify-content: center;  
+}
+.answerBox{
+  display: inline-block;
+  box-sizing: border-box;
+  height: auto;
+  width: 400px;
+  border-color: whitesmoke;
+  text-align:left; 
+  background-color:black;
+  color: white;
+}
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
