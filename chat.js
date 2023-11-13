@@ -29,7 +29,7 @@ function myFunction() {
 			document.getElementById("answer").innerHTML=`The weather today is <a href="https://www.nea.gov.sg/" style="color: white;" target="_blank">NEA website</a>`;
 			}
 		else if(inputText.toLowerCase().indexOf("what")>-1&&inputText.toLowerCase().indexOf("you")>-1){
-			document.getElementById("answer").innerHTML="I'm AI-20230901-project, build by LazyDolphin as a learning module for interactive chat on general topics.";}
+			document.getElementById("answer").innerHTML="I'm AI-20230901-project, build by Lazy Dolphin as a learning module for interactive chat on general topics.";}
 		
 			else if(inputText.toLowerCase().indexOf("bullshit")>-1){
 		document.getElementById("answer").innerHTML="as long as people exist, bullshit everywhere";}

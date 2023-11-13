@@ -31,14 +31,23 @@
   <!--chat button***-->
   <!--sample button*-->
   <div class="dropdown">
-    <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">sample</button>
+    <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">prompt</button>
     <div class="dropdown-content" id="myDropdown">
       <!--input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" /-->
+      <a href="#" onclick="displayAnswer('p1')">time</a>
+      <a href="#" onclick="displayAnswer('p2')">date</a>
+      <a href="#" onclick="displayAnswer('p3')">year</a>
+      <a href="#" onclick="displayAnswer('p4')">who are you?</a>
       <a href="#" onclick="displayAnswer('works')">Everything works</a>
       <a href="#" onclick="displayAnswer('equal')">All men equal?</a>
       <a href="#" onclick="displayAnswer('learning')">Learning</a>
       <a href="#" onclick="displayAnswer('How to learn')">How to learn?</a>
       <a href="#" onclick="displayAnswer('conflicting info')">struggle with AI</a>
+      
+      <a href="#" onclick="displayAnswer('p5')">believe in God?</a>
+
+
+
     </div></div>
   
   <!--sample button***-->
@@ -59,8 +68,8 @@
 
 
   <script src="chat.js"></script>
-  <script src="dropdown.js"></script>
-  <script src="dropdown1.js"></script>
+  <script src="dropdown/dropdown.js"></script>
+  <script src="dropdown/dropdown1.js"></script>
   <script src="list.js"></script>
 
 </body>
