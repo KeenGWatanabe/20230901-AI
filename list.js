@@ -17,21 +17,8 @@ else if (elementId === 'learning') {
     social and cultural perspective, then you will understand what the world wants base on their construct;
     `);}
 else if (elementId === 'How to learn') {
-    alert(`As the world is constructed from the baskc learning starter pack;
-    evey skill you want to learn will be understood through language description;
-    mathematics involve in that skill;
-    mould that skill according to social and cultural requirements or demands;
-    EXAMPLE:
-    Learn swimming > visual and language understanding of the skill > process and training body according to this input information;
-    How? The only requiremnt to learn swimming is with foundation pack +  your own body.
-
-    EXAMPLE:
-    Learn anything > Chat GPT for Lifeguard
-    How? Coding as your foundation pack + your resources of knowledge to develop this Chat program.
-
-    Learn anything > Chat GPT for A Book
-    How? Coding as your foundation pack + your resources of knowledge to develop this Chat program.
-    `);}
+    window.open(href="/media/MatrixCombatTraining - Made with Clipchamp.mp4", target='_blank','chat AI','resizable,height=700,width=1000');
+}
 else if (elementId === 'conflicting info') {
         alert(`The movie Terminator Genisys predicted humans will struggle with conflicting data and information, in the realm of time travel and how to piece history together.  But like the stock market, eventuality is that humans will disrupt whatever system presented to them.This metaphor is now applicable to our different AI being developed by different companies, knowing the information on search engines uploaded by humans are still bias.  The construct of theories, fundamentals, concepts are still aligned with established institutions, people who started them, collaboration of information is still an issue.`);}
 else if (elementId === 'p1') {document.getElementById("text_a").value = "What time is it?";}
