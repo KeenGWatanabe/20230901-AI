@@ -74,6 +74,8 @@ function myFunction() {
     script: politically correctness, the employer should teach the maid how to use his kitchen equipment, how to cook dishes he wants.  Ridiculous is when employer goes back to employment agency asking agency to teach maid how to use their kitchen equipment and how to cook!!!`;}
 
 	else if(inputText.toLowerCase().indexOf("war")>-1){document.getElementById("answer").innerHTML=`1st world, we built flying machines, chemical warfare, and couldn't wait to use them to gain air superiority and gun each other down.<br>2nd world war, we built navy ships, and start over and ended with the atomic bomb.<br>It is in our nature to gun each other, now there's chip war, AI war, cyberattack, currency war.  Like T100 said, it is in our nature to kill each other."   `;}
+
+	else if(inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("money")>-1||inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("wealth")>-1||inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("poor")>-1){document.getElementById("answer").innerHTML="If you think problems of the rich are easy to solve, then be rich and happy, if you think problems of the poor are easy to solve, then be poor.  Happiness is not listening to others and emulate them, but draw your wisdom and appreciate the peace.";}
 //Sample codes	
 	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML="";} 
 		
