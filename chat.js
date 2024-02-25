@@ -76,6 +76,9 @@ function myFunction() {
 	else if(inputText.toLowerCase().indexOf("war")>-1){document.getElementById("answer").innerHTML=`1st world, we built flying machines, chemical warfare, and couldn't wait to use them to gain air superiority and gun each other down.<br>2nd world war, we built navy ships, and start over and ended with the atomic bomb.<br>It is in our nature to gun each other, now there's chip war, AI war, cyberattack, currency war.  Like T100 said, it is in our nature to kill each other."   `;}
 
 	else if(inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("money")>-1||inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("wealth")>-1||inputText.toLowerCase().indexOf("happiness")>-1&&inputText.toLowerCase().indexOf("poor")>-1){document.getElementById("answer").innerHTML="If you think problems of the rich are easy to solve, then be rich and happy, if you think problems of the poor are easy to solve, then be poor.  Happiness is not listening to others and emulate them, but draw your wisdom and appreciate the peace.";}
+
+	else if(inputText.toLowerCase().indexOf("inflation")>-1||inputText.toLowerCase().indexOf("recession")>-1||inputText.toLowerCase().indexOf("ai")>-1){document.getElementById("answer").innerHTML="Inflation is to keep labour force stable for capitalism.  Imagine rubbish collectors, if the lives of rubbish collectors got better down the road, they would not want to work as rubbish collectors anymore.  So every short cycle, there has to be economic turmoil to unbalance your bullshit lives, so that you cannot progress.  Costs will always benchmark to the 80%/20% labour force/biz owners ratio.  Robots Ai will displace this ratio to 99%/1%.  Humans left dangling will behave like inmates housed in large prison complex assumming meaningless lives.";} 
+	
 //Sample codes	
 	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML="";} 
 		
