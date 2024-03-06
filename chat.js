@@ -79,22 +79,22 @@ function myFunction() {
 
 	else if(inputText.toLowerCase().indexOf("inflation")>-1||inputText.toLowerCase().indexOf("recession")>-1||inputText.toLowerCase().indexOf("ai")>-1){document.getElementById("answer").innerHTML="Inflation is to keep labour force stable for capitalism.  Imagine rubbish collectors, if the lives of rubbish collectors got better down the road, they would not want to work as rubbish collectors anymore.  So every short cycle, there has to be economic turmoil to unbalance your bullshit lives, so that you cannot progress.  Costs will always benchmark to the 80%/20% labour force/biz owners ratio.  Robots A.I. will displace this ratio to 99%/1%.  Humans left dangling will behave like inmates housed in large prison complex assumming meaningless lives.";} 
 	
-	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("rid")>-1){document.getElementById("answer").innerHTML=`1.Eliminate the food source.
-	2. Reduce clutter. 
-	3. Apply some repelling and deterring methods to relocate themselves further away
-	4. Stick traps within the corner of cabinets and drawers or by the sides of wall where they crawl
-	5. Have a standby insecticide spray when the need arise to deal with them instantly
+	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("rid")>-1){document.getElementById("answer").innerHTML=`1.Eliminate the food source.<br>
+	2. Reduce clutter. <br>
+	3. Apply some repelling and deterring methods to relocate themselves further away<br>
+	4. Stick traps within the corner of cabinets and drawers or by the sides of wall where they crawl<br>
+	5. Have a standby insecticide spray when the need arise to deal with them instantly<br>
 	
-	6.Reduce the insect population in your home as it forms main source of their food needs<a href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
+	6.Reduce the insect population in your home as it forms main source of their food needs<br><a href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
 
-	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("repellant")>-1){document.getElementById("answer").innerHTML=`1.Coffee & Tobacco mixed balls.
-	2. Naphthalene balls. 
-	3. Cold water.
-	4. Egg Shells.
-	5. Tabasco / Pepper spray.
-	6. Essential Oils.
+	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("repellant")>-1){document.getElementById("answer").innerHTML=`1.Coffee & Tobacco mixed balls.<br>
+	2. Naphthalene balls. <br>
+	3. Cold water.<br>
+	4. Egg Shells.<br>
+	5. Tabasco / Pepper spray.<br>
+	6. Essential Oils.<br>
 	
-	6.Reduce the insect population in your home as it forms main source of their food needs<a href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
+	<a href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
 //Sample codes	
 	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML="";} 
 		
