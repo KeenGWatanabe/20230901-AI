@@ -87,7 +87,7 @@ function myFunction() {
 	
 	6.Reduce the insect population in your home as it forms main source of their food needs<br><a href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
 
-	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("repellant")>-1){document.getElementById("answer").innerHTML=`1.Coffee & Tobacco mixed balls.<br>
+	else if(inputText.toLowerCase().indexOf("lizard")>-1||inputText.toLowerCase().indexOf("repell")>-1){document.getElementById("answer").innerHTML=`1.Coffee & Tobacco mixed balls.<br>
 	2. Naphthalene balls. <br>
 	3. Cold water.<br>
 	4. Egg Shells.<br>
