@@ -95,11 +95,13 @@ function myFunction() {
 	6. Essential Oils.<br>
 	
 	<a style="color:white" href="https://www.rentokil.com/sg/blog/lizards/manage-lizards-home">how to rid lizards at home</a>`;}
+	
+	else if(inputText.toLowerCase().indexOf("apply")>-1&&inputText.toLowerCase().indexOf("sealant")>-1){document.getElementById("answer").innerHTML=`how to use a caulk gun to apply silicone<br><a style="color:white" href="https://youtu.be/lt8TtoIVDt0?si=uEuMXw9jqO97RYnB">how to use a silicone gun or caulk gun</a>`;}
 //Sample codes	
-	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML="";} 
+	//else if(inputText.toLowerCase().indexOf("x")>-1){document.getElementById("answer").innerHTML=``;} 
 		
-	//	else if(inputText.toLowerCase().indexOf("xx")>-1){document.getElementById("answer").innerHTML='<a href="">mt</a>';}
-	// else if(inputText.toLowerCase().indexOf("xxx")>-1){document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>';} 	
+	//	else if(inputText.toLowerCase().indexOf("xx")>-1){document.getElementById("answer").innerHTML=`<a style="color:white" href="">mt</a>`;}
+	// else if(inputText.toLowerCase().indexOf("xxx")>-1){document.getElementById("answer").innerHTML=`<a style="color:white" href="" target="_blank">link1</a><br><a style="color:white" href="" target="_blank">link2</a><br>`;} 	
 	else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question<br>Or email us what was your question for us to update an appropriate response.<br><a href="mailto:freemindson.co@gmail.com?&subject=ChatBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20FreeMindson", style="background-color:red; color:white;" target="_blank">email</a>`;}
 			
 	      
